@@ -1,0 +1,194 @@
+html, body {
+    background-color: dimgrey;
+    height: 100%;
+    margin: 0;
+    
+}
+
+h1{
+    text-align: center;
+    font-size:  75px;
+    color: aqua;
+    font-family: "Rubik Wet Paint", serif;
+    
+    
+    
+}
+
+h2{
+    text-align: center;
+    font-size:  50px;
+    color: aqua;
+    font-family: "Rubik Wet Paint", serif;
+    
+}
+
+
+.game p {
+    text-align: center;
+    display: block;
+    border: solid black 2px;
+    justify-items: center;
+    background-color: aqua;
+    margin-top: 75px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 22px;    
+}
+.result{
+    display: block;
+    border: solid black 2px;
+    background-color: rgb(11, 177, 227);
+    font-size: 50px;
+    width: 50%;
+    padding-bottom: 50px;    
+    text-align: center;
+}
+
+.game ,.opp{
+    text-align: center;   
+}
+
+.my-info, .opp-info{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border: solid black 10px;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+#rock, #opp-rock{
+    
+    background-image: url(rock.jpg);
+          
+}
+
+#paper, #opp-paper{
+    
+    background-image: url(papper.jpg);
+    
+}
+
+#scissors, #opp-scissors{
+    
+    background-image: url(scissors.jpg);
+    
+}
+
+button{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: rgb(239, 53, 7);
+    border: solid black 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.score{
+    display: block;
+    border: solid black 2px;
+    background-color: rgb(11, 177, 227);
+    font-size: 25px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#scorebox{
+    color: aliceblue;
+}
+
+.rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.frijole-regular {
+    font-family: "Frijole", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+p{
+    font-family:"Frijole", serif ;
+
+}
+
+.player-pick{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pc-pick{
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#reset{
+    display: block;    
+    align-items: center;
+    text-align: center;    
+    cursor: hover;
+}
+
+#reset:hover{
+    background-color: rgb(239, 53, 7);
+    color: aliceblue;
+}
+
+#board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%; 
+    height: 70%; 
+    margin: auto; 
+    text-align: center;
+    margin-top: 100px;
+}
+
+#score-reset{
+    cursor: hover;
+}
+
+#score-reset:hover{
+    background-color: rgb(239, 53, 7);
+    color: aliceblue;
+    width: 525px;
+}
+
+#res{
+    color: aliceblue;
+}
+
+#you, #opp, #draw{
+    color: rgb(243, 39, 2);
+}
