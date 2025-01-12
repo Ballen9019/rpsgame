@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href="gamestyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+        <title>Rock, Paper, Scissors</title>
+    </head>
+    <body>
+        <h1 class="rubik-wet-paint-regular">Welcome to Rock, Paper, Scissors</h1>
+        
+        <section class="game">
+            <section class="player-pick">
+                <h2 class="rubik-wet-paint-regular">Please pick:</h2>
+                <section id="rock" class="my-info">
+                    <p class="frijole-regular">Rock</p>
+                </section>
+                <section id="paper" class="my-info">
+                    <p class="frijole-regular">Paper</p>
+                </section>
+                <section id="scissors" class="my-info">
+                    <p class="frijole-regular">Scissors</p>
+                </section>
+            </section>
+
+            <section class="pc-pick">
+                <h2 class="rubik-wet-paint-regular">Computer's Pick:</h2>
+                <section class="opp">
+                    <section id="opp-rock" class="opp-info">
+                        <p class="frijole-regular">Rock</p>
+                    </section>
+                    <section id="opp-paper" class="opp-info">
+                        <p class="frijole-regular">Paper</p>
+                    </section>
+                    <section id="opp-scissors" class="opp-info">
+                        <p class="frijole-regular">Scissors</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section id="reset">
+            <button>Reset Game</button>
+        </section>
+
+        <section class="bord">
+            <section class="result">
+                <h2 class="rubik-wet-paint-regular" id="res">Result:</h2>
+                <p id="you" class="results">You Win</p>
+                <p id="opp" class="results">Computer Wins!</p>
+                <p id="draw" class="results">It's a Draw</p>
+            </section>
+            <section class="score">
+                <h2 id="scorebox" class="rubik-wet-paint-regular">Score:</h2>
+                <p id="player" class="frijole-regular">Player: 0</p>
+                <p id="computer" class="frijole-regular">Computer: 0</p>
+            </section>
+            <section id="score-reset">
+                <button>Reset Score</button>
+            </section>
+        </section>
+
+        <script src="game.js"></script>
+    </body>
+</html>
